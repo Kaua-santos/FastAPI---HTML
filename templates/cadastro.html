@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Cadastrar alunos</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastrar Novo aluno</h1>
+        <form action="/cadastro" method="post">
+            <label>Nome do aluno:</label>
+            <input type="text" name="nome" required>
+            <label>Nota:</label>
+            <input type="number" name="nota" required>
+
+            <button type="submit" class="botao">Salvar</button>
+        </form>
+        <a href="/" class="voltar">Voltar</a>
+    </div>
+</body>
+
+</html>
